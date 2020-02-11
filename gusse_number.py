@@ -9,7 +9,7 @@ count = 0
 
 while True:
 	count = count + 1
-	num = input('請猜數字: ')	
+	num = input('請猜數字' + str(start) + '到'+ str(end) + ':')	
 	num = int(num)
 	if num == r :
 		print('恭喜你答對了')
